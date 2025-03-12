@@ -1,7 +1,7 @@
 from product import Product
 
 class Product_manager:
-    def _init_(self):
+    def __init__(self):
         self.products = []
         
 def add_product(self, product):
@@ -16,3 +16,11 @@ def calculate_total_value(self):
     
     print(f"Valoarea totala:{total_value}")
     
+def remove_product(self, product_name):
+        new_products = []
+        for product in self.products:
+            if product.name == product_name:
+                continue
+            new_products.append(product)
+        self.products = new_products
+        print(f"Produsul '{product_name}' a fost sters cu succes.")
