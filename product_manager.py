@@ -4,19 +4,19 @@ class Product_manager:
     def __init__(self):
         self.products = []
         
-def add_product(self, product):
-    self.product.append(product)
+    def add_product(self, product):
+        self.products.append(product)
 
-def display_product(self):
-    for product in self.products:
-        product.display_info()
+    def display_products(self):
+        for product in self.products:
+            product.display_info()
         
-def calculate_total_value(self):
-    total_value = sum(product.price * product.quantity for product in self.products)
+    def calculate_total_value(self):
+        total_value = sum(product.price * product.quantity for product in self.products)
     
-    print(f"Valoarea totala:{total_value}")
+        print(f"Valoarea totala:{total_value}")
     
-def remove_product(self, product_name):
+    def remove_product(self, product_name):
         new_products = []
         for product in self.products:
             if product.name == product_name:
