@@ -9,6 +9,10 @@ manager = Product_manager()
 manager.add_product(Product("Placa Video", 5000, 13))
 manager.add_product(Product("Tableta", 1400, 14))
 manager.add_product(Product("Iphone", 1200, 3))
+manager.add_product(Product("Smartphone", 1000, 6))
+manager.add_product(Product("Joystick", 200, 30))
+manager.add_product(Product("Tastatura mecanica", 300, 7))
+manager.add_product(Product("Mouse gaming", 150, 12))
 
 
 
